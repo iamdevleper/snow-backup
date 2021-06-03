@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>fa11b810dbe9d81038699d67b996193c</copied_from>
+        <copied_from_name>Provision Resources With Vars</copied_from_name>
+        <description/>
+        <internal_name>example_with_pinned_vars</internal_name>
+        <label_cache>[{"name":"dbd63bc9-774d-4fa2-8d44-44ef0d19f8ed.sensitive_tf_var_example","label":"1➛sensitive_tf_var_example","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"dbd63bc9-774d-4fa2-8d44-44ef0d19f8ed.tf_env_example","label":"1➛tf_env_example","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"dbd63bc9-774d-4fa2-8d44-44ef0d19f8ed.tf_var_pet_name_length","label":"1➛tf_var_pet_name_length","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"Service Catalog_1.request_item","label":"Trigger➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference"},{"name":"dbd63bc9-774d-4fa2-8d44-44ef0d19f8ed.tf_var_vcs_repository","label":"1➛tf_var_vcs_repository","reference":"","reference_display":"","type":"choice","base_type":"choice","column_name":""},{"name":"dbd63bc9-774d-4fa2-8d44-44ef0d19f8ed.description","label":"1➛description","reference":"","reference_display":"","type":"multi_small","base_type":"multi_small","column_name":""},{"name":"Service Catalog_1.request_item.request","label":"Trigger➛Requested Item Record➛Request","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"request"},{"name":"d67482d9-4e7d-484f-9752-56b2b49e1fd7.workspace_name","label":"2➛workspace_name","reference_display":"workspace_name","type":"string","base_type":"string"},{"name":"982df2d6-8b5c-4da2-8e17-0ac5dd4bb808.total_duration","label":"3➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration"},{"name":"982df2d6-8b5c-4da2-8e17-0ac5dd4bb808.scheduled_end_date_time","label":"3➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Example with Pinned Vars</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-17 20:19:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c714c190db2dd81038699d67b996195d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Example with Pinned Vars</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Terraform" source="x_325709_terraform">a3f7fe62dbe033009ba2f8fdbf96192a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Terraform">a3f7fe62dbe033009ba2f8fdbf96192a</sys_scope>
+        <sys_update_name>sys_hub_flow_c714c190db2dd81038699d67b996195d</sys_update_name>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-17 20:19:50</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=c714c190db2dd81038699d67b996195d"/>
+    <sys_variable_value action="DELETE" query="document_key=c714c190db2dd81038699d67b996195d"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=c714c190db2dd81038699d67b996195d^sys_idNOT IN4f14c190db2dd81038699d67b996195e"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>c714c190db2dd81038699d67b996195d</id>
+        <name>Example with Pinned Vars</name>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-17 20:19:50</sys_created_on>
+        <sys_id>4f14c190db2dd81038699d67b996195e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-17 20:19:50</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Terraform">a3f7fe62dbe033009ba2f8fdbf96192a</application>
+        <file_path/>
+        <instance_id>a261f3b1db28d894413450b6f49619ab</instance_id>
+        <instance_name>ven03693</instance_name>
+        <name>sys_hub_flow_c714c190db2dd81038699d67b996195d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access>public</access><acls/><active>false</active><annotation/><callable_by_client_api>false</callable_by_client_api><category/><copied_from>fa11b810dbe9d81038699d67b996193c</copied_from><copied_from_name>Provision Resources With Vars</copied_from_name><description/><internal_name>example_with_pinned_vars</internal_name><label_cache>[{"name":"dbd63bc9-774d-4fa2-8d44-44ef0d19f8ed.sensitive_tf_var_example","label":"1➛sensitive_tf_var_example","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"dbd63bc9-774d-4fa2-8d44-44ef0d19f8ed.tf_env_example","label":"1➛tf_env_example","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"dbd63bc9-774d-4fa2-8d44-44ef0d19f8ed.tf_var_pet_name_length","label":"1➛tf_var_pet_name_length","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"Service Catalog_1.request_item","label":"Trigger➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference"},{"name":"dbd63bc9-774d-4fa2-8d44-44ef0d19f8ed.tf_var_vcs_repository","label":"1➛tf_var_vcs_repository","reference":"","reference_display":"","type":"choice","base_type":"choice","column_name":""},{"name":"dbd63bc9-774d-4fa2-8d44-44ef0d19f8ed.description","label":"1➛description","reference":"","reference_display":"","type":"multi_small","base_type":"multi_small","column_name":""},{"name":"Service Catalog_1.request_item.request","label":"Trigger➛Requested Item Record➛Request","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"request"},{"name":"d67482d9-4e7d-484f-9752-56b2b49e1fd7.workspace_name","label":"2➛workspace_name","reference_display":"workspace_name","type":"string","base_type":"string"},{"name":"982df2d6-8b5c-4da2-8e17-0ac5dd4bb808.total_duration","label":"3➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration"},{"name":"982df2d6-8b5c-4da2-8e17-0ac5dd4bb808.scheduled_end_date_time","label":"3➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time"}]</label_cache><latest_snapshot/><master_snapshot/><name>Example with Pinned Vars</name><outputs/><remote_trigger_id/><run_as>user</run_as><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>pwelch</sys_created_by><sys_created_on>2020-06-17 20:19:50</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c714c190db2dd81038699d67b996195d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Example with Pinned Vars</sys_name><sys_overrides/><sys_package display_value="Terraform" source="x_325709_terraform">a3f7fe62dbe033009ba2f8fdbf96192a</sys_package><sys_policy/><sys_scope display_value="Terraform">a3f7fe62dbe033009ba2f8fdbf96192a</sys_scope><sys_update_name>sys_hub_flow_c714c190db2dd81038699d67b996195d</sys_update_name><sys_updated_by>pwelch</sys_updated_by><sys_updated_on>2020-06-17 20:19:50</sys_updated_on><type>flow</type></sys_hub_flow><sys_translated_text action="delete_multiple" query="documentkey=c714c190db2dd81038699d67b996195d"/><sys_variable_value action="delete_multiple" query="document_key=c714c190db2dd81038699d67b996195d"/><sys_flow_cat_variable_model action="delete_multiple" query="id=c714c190db2dd81038699d67b996195d^sys_idNOT IN4f14c190db2dd81038699d67b996195e"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>c714c190db2dd81038699d67b996195d</id><name>Example with Pinned Vars</name><sys_created_by>pwelch</sys_created_by><sys_created_on>2020-06-17 20:19:50</sys_created_on><sys_id>4f14c190db2dd81038699d67b996195e</sys_id><sys_mod_count>0</sys_mod_count><sys_scope/><sys_updated_by>pwelch</sys_updated_by><sys_updated_on>2020-06-17 20:19:50</sys_updated_on></sys_flow_cat_variable_model></record_update>]]></payload>
+        <payload_hash>1247568695</payload_hash>
+        <record_name>Example with Pinned Vars</record_name>
+        <reverted_from/>
+        <source>a347d65cdb34181038699d67b9961945</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-17 20:19:50</sys_created_on>
+        <sys_id>4714c190db2dd81038699d67b9961962</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172c3f015ba0000001</sys_recorded_at>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-17 20:19:50</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>8f14c190f02dd81011adf8aba3337661</update_guid>
+        <update_guid_history>8f14c190f02dd81011adf8aba3337661:1247568695</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-18 23:15:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>c355fc9f0f9c44f2ab5fee068b54c2e4</sys_id>
+        <sys_metadata>c714c190db2dd81038699d67b996195d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Example with Pinned Vars</sys_name>
+        <sys_package display_value="Terraform" source="x_325709_terraform">a3f7fe62dbe033009ba2f8fdbf96192a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Terraform">a3f7fe62dbe033009ba2f8fdbf96192a</sys_scope>
+        <sys_scope_delete display_value="">45184ac6f4e54bee89dba0e0f9a529c9</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_c714c190db2dd81038699d67b996195d</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_c714c190db2dd81038699d67b996195d">4714c190db2dd81038699d67b9961962</sys_update_version>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-18 23:15:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

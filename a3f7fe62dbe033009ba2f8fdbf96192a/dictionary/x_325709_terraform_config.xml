@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Config" max_length="40" name="x_325709_terraform_config" sizeclass="1" type="collection">
+        <element label="API Team Token" max_length="255" name="api_team_token" type="password2"/>
+        <element default="https://app.terraform.io" label="Hostname" mandatory="true" max_length="255" name="hostname" type="url"/>
+        <element label="Org Name" max_length="255" name="org_name" type="string_full_utf8"/>
+    </element>
+</database>

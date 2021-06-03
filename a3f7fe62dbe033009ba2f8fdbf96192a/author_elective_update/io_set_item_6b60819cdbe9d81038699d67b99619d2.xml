@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>1</order>
+        <sc_cat_item display_value="Copy of Provision Resources with Vars Flow">2b60819cdbe9d81038699d67b99619c7</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-17 20:03:46</sys_created_on>
+        <sys_id>6b60819cdbe9d81038699d67b99619d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Workspace Request Create.Copy of Provision Resources with Vars Flow</sys_name>
+        <sys_package display_value="Terraform" source="x_325709_terraform">a3f7fe62dbe033009ba2f8fdbf96192a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Terraform">a3f7fe62dbe033009ba2f8fdbf96192a</sys_scope>
+        <sys_update_name>io_set_item_6b60819cdbe9d81038699d67b99619d2</sys_update_name>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-17 20:03:46</sys_updated_on>
+        <variable_set display_value="Workspace Request Create">c18f6bf1db92330019899b81ca9619f5</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Terraform">a3f7fe62dbe033009ba2f8fdbf96192a</application>
+        <file_path/>
+        <instance_id>a261f3b1db28d894413450b6f49619ab</instance_id>
+        <instance_name>ven03693</instance_name>
+        <name>io_set_item_6b60819cdbe9d81038699d67b99619d2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>1</order><sc_cat_item display_value="Copy of Provision Resources with Vars Flow">2b60819cdbe9d81038699d67b99619c7</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>pwelch</sys_created_by><sys_created_on>2020-06-17 20:03:46</sys_created_on><sys_id>6b60819cdbe9d81038699d67b99619d2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Workspace Request Create.Copy of Provision Resources with Vars Flow</sys_name><sys_package display_value="Terraform" source="x_325709_terraform">a3f7fe62dbe033009ba2f8fdbf96192a</sys_package><sys_policy/><sys_scope display_value="Terraform">a3f7fe62dbe033009ba2f8fdbf96192a</sys_scope><sys_update_name>io_set_item_6b60819cdbe9d81038699d67b99619d2</sys_update_name><sys_updated_by>pwelch</sys_updated_by><sys_updated_on>2020-06-17 20:03:46</sys_updated_on><variable_set display_value="Workspace Request Create">c18f6bf1db92330019899b81ca9619f5</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>-285252685</payload_hash>
+        <record_name>Workspace Request Create.Copy of Provision Resources with Vars Flow</record_name>
+        <reverted_from/>
+        <source>a347d65cdb34181038699d67b9961945</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-17 20:03:46</sys_created_on>
+        <sys_id>a760819cdbe9d81038699d67b99619d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172c3e15fae0000001</sys_recorded_at>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-17 20:03:46</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>ef60819cb1e9d8100860f3c1a8061fd4</update_guid>
+        <update_guid_history>ef60819cb1e9d8100860f3c1a8061fd4:-285252685</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">a270059cdbe9d81038699d67b9961909</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-17 20:03:58</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>69bbfd9dd17b483ba7e81e8391460db9</sys_id>
+        <sys_metadata>6b60819cdbe9d81038699d67b99619d2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Workspace Request Create.Copy of Provision Resources with Vars Flow</sys_name>
+        <sys_package display_value="Terraform" source="x_325709_terraform">a3f7fe62dbe033009ba2f8fdbf96192a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Terraform">a3f7fe62dbe033009ba2f8fdbf96192a</sys_scope>
+        <sys_scope_delete display_value="">45184ac6f4e54bee89dba0e0f9a529c9</sys_scope_delete>
+        <sys_update_name>io_set_item_6b60819cdbe9d81038699d67b99619d2</sys_update_name>
+        <sys_update_version display_value="io_set_item_6b60819cdbe9d81038699d67b99619d2">a760819cdbe9d81038699d67b99619d5</sys_update_version>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-17 20:03:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

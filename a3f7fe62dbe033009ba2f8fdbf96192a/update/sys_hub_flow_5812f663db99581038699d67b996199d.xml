@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-paris-06-24-2020__patch1-hotfix3-09-23-2020</compiler_build>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Worker Poll Job to destroy workspaces marked for deletion.</description>
+        <internal_name>worker_poll_destroy_workspace</internal_name>
+        <label_cache>[{"name":"62acb1ee-4933-408f-911f-9fcea780fcc7.item","label":"2➛Terraform Record","reference":"x_325709_terraform_terraform","reference_display":"Terraform","type":"reference","base_type":"reference"},{"name":"d80fdba1-ce2d-41a8-839b-4ccfca456f67.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"d80fdba1-ce2d-41a8-839b-4ccfca456f67.Table","label":"1➛Terraform Table","reference":"x_325709_terraform_terraform","reference_display":"Terraform","type":"table_name","base_type":"table_name"},{"name":"d80fdba1-ce2d-41a8-839b-4ccfca456f67.Records","label":"1➛Terraform Records","reference":"x_325709_terraform_terraform","reference_display":"Terraform","type":"records","base_type":"records"}]</label_cache>
+        <latest_snapshot>45e0ad822f903010d881309cf699b60b</latest_snapshot>
+        <master_snapshot>d7c33ae3db99581038699d67b9961921</master_snapshot>
+        <name>Worker Poll Destroy Workspace</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id>53c33ae3db99581038699d67b996193b</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-15 20:24:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5812f663db99581038699d67b996199d</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Worker Poll Destroy Workspace</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Terraform" source="x_325709_terraform">a3f7fe62dbe033009ba2f8fdbf96192a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Terraform">a3f7fe62dbe033009ba2f8fdbf96192a</sys_scope>
+        <sys_update_name>sys_hub_flow_5812f663db99581038699d67b996199d</sys_update_name>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-15 20:32:24</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=5812f663db99581038699d67b996199d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=5812f663db99581038699d67b996199d"/>
+    <sys_flow_timer_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <day_of_month>1</day_of_month>
+        <day_of_week/>
+        <name/>
+        <run_period>1970-01-01 00:05:01</run_period>
+        <run_start>2020-06-15 20:32:23</run_start>
+        <sys_class_name>sys_flow_timer_trigger</sys_class_name>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-15 20:32:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>53c33ae3db99581038699d67b996193b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-15 20:32:23</sys_updated_on>
+        <time/>
+        <timer_type>1</timer_type>
+    </sys_flow_timer_trigger>
+    <sys_flow_trigger_auto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>Trigger:53c33ae3db99581038699d67b996193b</name>
+        <offset/>
+        <offset_type/>
+        <run_as display_value="">dbc55a1cdb34181038699d67b99619c1</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period>1970-01-01 00:05:01</run_period>
+        <run_start>2020-06-15 20:32:23</run_start>
+        <run_time/>
+        <run_type>periodically</run_type>
+        <script><![CDATA[sn_flow_trigger.FlowTriggerAPI.fireTimerTrigger('53c33ae3db99581038699d67b996193b');]]></script>
+        <sys_class_name>sys_flow_trigger_auto_script</sys_class_name>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-15 20:32:23</sys_created_on>
+        <sys_id>57c33ae3db99581038699d67b996193b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Terraform">a3f7fe62dbe033009ba2f8fdbf96192a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-15 20:32:23</sys_updated_on>
+        <time_zone/>
+        <trigger display_value="">53c33ae3db99581038699d67b996193b</trigger>
+        <upgrade_safe>false</upgrade_safe>
+    </sys_flow_trigger_auto_script>
+    <sys_hub_flow_component action="delete_multiple" query="flow=5812f663db99581038699d67b996199d^sys_idNOT IN0ec376e3db99581038699d67b99619f7,31333aa3db99581038699d67b996192a,a20332a3db99581038699d67b996195a"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Worker Poll Destroy Workspace">a9a376e3db99581038699d67b996190d</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>a9a376e3db99581038699d67b996190d</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Worker Poll Destroy Workspace">5812f663db99581038699d67b996199d</flow>
+        <order>2.1</order>
+        <parent_ui_id>62acb1ee-4933-408f-911f-9fcea780fcc7</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-15 20:32:17</sys_created_on>
+        <sys_id>0ec376e3db99581038699d67b99619f7</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_scope display_value="Terraform">a3f7fe62dbe033009ba2f8fdbf96192a</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-05-24 21:58:49</sys_updated_on>
+        <ui_id>4c032556-ae6f-49c9-9590-f09d32c5980b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0ec376e3db99581038699d67b99619f7"/>
+    <sys_element_mapping action="delete_multiple" query="id=0ec376e3db99581038699d67b99619f7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tf_record</field>
+        <id>0ec376e3db99581038699d67b99619f7</id>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-15 20:32:18</sys_created_on>
+        <sys_id>02c376e3db99581038699d67b99619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-15 20:32:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_4e6332e3db99581038699d67b99619e2</table>
+        <value>{{62acb1ee-4933-408f-911f-9fcea780fcc7.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tf_record</field>
+        <id>0ec376e3db99581038699d67b99619f7</id>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-15 20:32:22</sys_created_on>
+        <sys_id>83c3f6e3db99581038699d67b99619ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-15 20:32:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a9a376e3db99581038699d67b996190d</table>
+        <value>{{62acb1ee-4933-408f-911f-9fcea780fcc7.item}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">b5333aa3db99581038699d67b9961929</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Worker Poll Destroy Workspace">5812f663db99581038699d67b996199d</flow>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-15 20:29:50</sys_created_on>
+        <sys_id>31333aa3db99581038699d67b996192a</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Terraform">a3f7fe62dbe033009ba2f8fdbf96192a</sys_scope>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-15 20:32:23</sys_updated_on>
+        <ui_id>62acb1ee-4933-408f-911f-9fcea780fcc7</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=31333aa3db99581038699d67b996192a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>31333aa3db99581038699d67b996192a</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-15 20:29:50</sys_created_on>
+        <sys_id>79333aa3db99581038699d67b996192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-15 20:29:50</sys_updated_on>
+        <value>{{d80fdba1-ce2d-41a8-839b-4ccfca456f67.Records}}</value>
+        <variable display_value="">19df9109c32632002841b63b12d3aed6</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Worker Poll Destroy Workspace">5812f663db99581038699d67b996199d</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-15 20:29:04</sys_created_on>
+        <sys_id>a20332a3db99581038699d67b996195a</sys_id>
+        <sys_mod_count>36</sys_mod_count>
+        <sys_scope display_value="Terraform">a3f7fe62dbe033009ba2f8fdbf96192a</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-05-24 21:58:49</sys_updated_on>
+        <ui_id>d80fdba1-ce2d-41a8-839b-4ccfca456f67</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a20332a3db99581038699d67b996195a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a20332a3db99581038699d67b996195a</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-15 20:32:22</sys_created_on>
+        <sys_id>8fc376e3db99581038699d67b99619bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-15 20:32:22</sys_updated_on>
+        <value>x_325709_terraform_terraform</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a20332a3db99581038699d67b996195a</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-15 20:29:04</sys_created_on>
+        <sys_id>b20332a3db99581038699d67b996195d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-15 20:29:04</sys_updated_on>
+        <value>x_325709_terraform_terraform</value>
+        <variable display_value="">3807ee090b30030085c083eb37673a08</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a20332a3db99581038699d67b996195a</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-15 20:32:22</sys_created_on>
+        <sys_id>cbc376e3db99581038699d67b99619bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-15 20:32:22</sys_updated_on>
+        <value>is_destroyable=true^last_known_state!=deleted</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a20332a3db99581038699d67b996195a</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-15 20:29:04</sys_created_on>
+        <sys_id>fe0332a3db99581038699d67b996195c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-15 20:29:04</sys_updated_on>
+        <value>is_destroyable=true^last_known_state!=deleted</value>
+        <variable display_value="">0507ee090b30030085c083eb37673a2e</variable>
+    </sys_variable_value>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=5812f663db99581038699d67b996199d^sys_idNOT IN2e0332a3db99581038699d67b9961955"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Worker Poll Destroy Workspace">5812f663db99581038699d67b996199d</flow>
+        <name>Repeat</name>
+        <remote_sys_id/>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-15 20:29:04</sys_created_on>
+        <sys_id>2e0332a3db99581038699d67b9961955</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-15 20:32:23</sys_updated_on>
+        <trigger_definition display_value="Repeat">f63f0d94c32222002841b63b12d3aeed</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>repeat</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2e0332a3db99581038699d67b9961955"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>2e0332a3db99581038699d67b9961955</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-15 20:29:04</sys_created_on>
+        <sys_id>aa0332a3db99581038699d67b9961956</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-15 20:29:04</sys_updated_on>
+        <value>1970-01-01 00:05:01</value>
+        <variable display_value="">1c5f4d94c32222002841b63b12d3aeb3</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=5812f663db99581038699d67b996199d^sys_idNOT INd0123e63db99581038699d67b99619f9"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>5812f663db99581038699d67b996199d</id>
+        <name>Worker Poll Destroy Workspace</name>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-15 20:24:48</sys_created_on>
+        <sys_id>d0123e63db99581038699d67b99619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-15 20:24:48</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_action_instance action="delete_multiple" query="flow=5812f663db99581038699d67b996199d^sys_idNOT IN0ec376e3db99581038699d67b99619f7,a20332a3db99581038699d67b996195a"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Worker Poll Destroy Workspace">a9a376e3db99581038699d67b996190d</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>a9a376e3db99581038699d67b996190d</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Worker Poll Destroy Workspace">5812f663db99581038699d67b996199d</flow>
+        <order>2.1</order>
+        <parent_ui_id>62acb1ee-4933-408f-911f-9fcea780fcc7</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-15 20:32:17</sys_created_on>
+        <sys_id>0ec376e3db99581038699d67b99619f7</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_scope display_value="Terraform">a3f7fe62dbe033009ba2f8fdbf96192a</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-05-24 21:58:49</sys_updated_on>
+        <ui_id>4c032556-ae6f-49c9-9590-f09d32c5980b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0ec376e3db99581038699d67b99619f7"/>
+    <sys_element_mapping action="delete_multiple" query="id=0ec376e3db99581038699d67b99619f7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tf_record</field>
+        <id>0ec376e3db99581038699d67b99619f7</id>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-15 20:32:18</sys_created_on>
+        <sys_id>02c376e3db99581038699d67b99619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-15 20:32:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_4e6332e3db99581038699d67b99619e2</table>
+        <value>{{62acb1ee-4933-408f-911f-9fcea780fcc7.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tf_record</field>
+        <id>0ec376e3db99581038699d67b99619f7</id>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-15 20:32:22</sys_created_on>
+        <sys_id>83c3f6e3db99581038699d67b99619ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-15 20:32:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a9a376e3db99581038699d67b996190d</table>
+        <value>{{62acb1ee-4933-408f-911f-9fcea780fcc7.item}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Worker Poll Destroy Workspace">5812f663db99581038699d67b996199d</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-15 20:29:04</sys_created_on>
+        <sys_id>a20332a3db99581038699d67b996195a</sys_id>
+        <sys_mod_count>36</sys_mod_count>
+        <sys_scope display_value="Terraform">a3f7fe62dbe033009ba2f8fdbf96192a</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-05-24 21:58:49</sys_updated_on>
+        <ui_id>d80fdba1-ce2d-41a8-839b-4ccfca456f67</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a20332a3db99581038699d67b996195a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a20332a3db99581038699d67b996195a</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-15 20:32:22</sys_created_on>
+        <sys_id>8fc376e3db99581038699d67b99619bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-15 20:32:22</sys_updated_on>
+        <value>x_325709_terraform_terraform</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a20332a3db99581038699d67b996195a</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-15 20:29:04</sys_created_on>
+        <sys_id>b20332a3db99581038699d67b996195d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-15 20:29:04</sys_updated_on>
+        <value>x_325709_terraform_terraform</value>
+        <variable display_value="">3807ee090b30030085c083eb37673a08</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a20332a3db99581038699d67b996195a</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-15 20:32:22</sys_created_on>
+        <sys_id>cbc376e3db99581038699d67b99619bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-15 20:32:22</sys_updated_on>
+        <value>is_destroyable=true^last_known_state!=deleted</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a20332a3db99581038699d67b996195a</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-15 20:29:04</sys_created_on>
+        <sys_id>fe0332a3db99581038699d67b996195c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-15 20:29:04</sys_updated_on>
+        <value>is_destroyable=true^last_known_state!=deleted</value>
+        <variable display_value="">0507ee090b30030085c083eb37673a2e</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=5812f663db99581038699d67b996199d^sys_idNOT IN31333aa3db99581038699d67b996192a"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">b5333aa3db99581038699d67b9961929</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Worker Poll Destroy Workspace">5812f663db99581038699d67b996199d</flow>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-15 20:29:50</sys_created_on>
+        <sys_id>31333aa3db99581038699d67b996192a</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Terraform">a3f7fe62dbe033009ba2f8fdbf96192a</sys_scope>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-15 20:32:23</sys_updated_on>
+        <ui_id>62acb1ee-4933-408f-911f-9fcea780fcc7</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=31333aa3db99581038699d67b996192a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>31333aa3db99581038699d67b996192a</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-15 20:29:50</sys_created_on>
+        <sys_id>79333aa3db99581038699d67b996192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-15 20:29:50</sys_updated_on>
+        <value>{{d80fdba1-ce2d-41a8-839b-4ccfca456f67.Records}}</value>
+        <variable display_value="">19df9109c32632002841b63b12d3aed6</variable>
+    </sys_variable_value>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=5812f663db99581038699d67b996199d^sys_idNOT IN1bc33ae3db99581038699d67b996193d"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"1bc33ae3db99581038699d67b996193d","name":"plan"}}</plan>
+        <plan_id>5812f663db99581038699d67b996199d</plan_id>
+        <snapshot>45e0ad822f903010d881309cf699b60b</snapshot>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-15 20:32:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1bc33ae3db99581038699d67b996193d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-15 20:32:23</sys_updated_on>
+        <trigger display_value="">53c33ae3db99581038699d67b996193b</trigger>
+    </sys_flow_trigger_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Worker Poll Job to destroy workspaces marked for deletion.</description>
+        <internal_name>worker_poll_destroy_workspace</internal_name>
+        <label_cache>[{"name":"62acb1ee-4933-408f-911f-9fcea780fcc7.item","label":"2➛Terraform Record","reference":"x_325709_terraform_terraform","reference_display":"Terraform","type":"reference","base_type":"reference"},{"name":"d80fdba1-ce2d-41a8-839b-4ccfca456f67.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"d80fdba1-ce2d-41a8-839b-4ccfca456f67.Table","label":"1➛Terraform Table","reference":"x_325709_terraform_terraform","reference_display":"Terraform","type":"table_name","base_type":"table_name"},{"name":"d80fdba1-ce2d-41a8-839b-4ccfca456f67.Records","label":"1➛Terraform Records","reference":"x_325709_terraform_terraform","reference_display":"Terraform","type":"records","base_type":"records"}]</label_cache>
+        <master>true</master>
+        <name>Worker Poll Destroy Workspace</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Worker Poll Destroy Workspace">5812f663db99581038699d67b996199d</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-15 20:32:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d7c33ae3db99581038699d67b9961921</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Terraform">a3f7fe62dbe033009ba2f8fdbf96192a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-15 20:32:23</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=d7c33ae3db99581038699d67b9961921"/>
+    <sys_variable_value action="delete_multiple" query="document_key=d7c33ae3db99581038699d67b9961921"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=d7c33ae3db99581038699d67b9961921^sys_idNOT IN1fc33ae3db99581038699d67b996192b,d3c33ae3db99581038699d67b9961925,dbc33ae3db99581038699d67b9961928"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Worker Poll Destroy Workspace">a9a376e3db99581038699d67b996190d</action_type>
+        <action_type_parent display_value="Worker Poll Destroy Workspace">4e6332e3db99581038699d67b99619e2</action_type_parent>
+        <comment/>
+        <compiled_snapshot>a9a376e3db99581038699d67b996190d</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Worker Poll Destroy Workspace">d7c33ae3db99581038699d67b9961921</flow>
+        <order>2.1</order>
+        <parent_ui_id>62acb1ee-4933-408f-911f-9fcea780fcc7</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-15 20:32:23</sys_created_on>
+        <sys_id>1fc33ae3db99581038699d67b996192b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Terraform">a3f7fe62dbe033009ba2f8fdbf96192a</sys_scope>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-15 20:32:23</sys_updated_on>
+        <ui_id>4c032556-ae6f-49c9-9590-f09d32c5980b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1fc33ae3db99581038699d67b996192b"/>
+    <sys_element_mapping action="delete_multiple" query="id=1fc33ae3db99581038699d67b996192b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tf_record</field>
+        <id>1fc33ae3db99581038699d67b996192b</id>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-15 20:32:23</sys_created_on>
+        <sys_id>5bc33ae3db99581038699d67b996192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-15 20:32:23</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a9a376e3db99581038699d67b996190d</table>
+        <value>{{62acb1ee-4933-408f-911f-9fcea780fcc7.item}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">b5333aa3db99581038699d67b9961929</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Worker Poll Destroy Workspace">d7c33ae3db99581038699d67b9961921</flow>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-15 20:32:23</sys_created_on>
+        <sys_id>d3c33ae3db99581038699d67b9961925</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-15 20:32:23</sys_updated_on>
+        <ui_id>62acb1ee-4933-408f-911f-9fcea780fcc7</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=d3c33ae3db99581038699d67b9961925"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>d3c33ae3db99581038699d67b9961925</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-15 20:32:23</sys_created_on>
+        <sys_id>17c33ae3db99581038699d67b9961926</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-15 20:32:23</sys_updated_on>
+        <value>{{d80fdba1-ce2d-41a8-839b-4ccfca456f67.Records}}</value>
+        <variable display_value="">19df9109c32632002841b63b12d3aed6</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Worker Poll Destroy Workspace">d7c33ae3db99581038699d67b9961921</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-15 20:32:23</sys_created_on>
+        <sys_id>dbc33ae3db99581038699d67b9961928</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Terraform">a3f7fe62dbe033009ba2f8fdbf96192a</sys_scope>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-15 20:32:23</sys_updated_on>
+        <ui_id>d80fdba1-ce2d-41a8-839b-4ccfca456f67</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=dbc33ae3db99581038699d67b9961928"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>dbc33ae3db99581038699d67b9961928</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-15 20:32:23</sys_created_on>
+        <sys_id>1bc33ae3db99581038699d67b996192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-15 20:32:23</sys_updated_on>
+        <value>x_325709_terraform_terraform</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>dbc33ae3db99581038699d67b9961928</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-15 20:32:23</sys_created_on>
+        <sys_id>57c33ae3db99581038699d67b996192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-15 20:32:23</sys_updated_on>
+        <value>is_destroyable=true^last_known_state!=deleted</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=d7c33ae3db99581038699d67b9961921^sys_idNOT IN1fc33ae3db99581038699d67b996192c"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Worker Poll Destroy Workspace">d7c33ae3db99581038699d67b9961921</flow>
+        <name>Repeat</name>
+        <remote_sys_id/>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-15 20:32:23</sys_created_on>
+        <sys_id>1fc33ae3db99581038699d67b996192c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-15 20:32:23</sys_updated_on>
+        <trigger_definition display_value="Repeat">f63f0d94c32222002841b63b12d3aeed</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>repeat</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1fc33ae3db99581038699d67b996192c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>1fc33ae3db99581038699d67b996192c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-15 20:32:23</sys_created_on>
+        <sys_id>93c33ae3db99581038699d67b996192d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-15 20:32:23</sys_updated_on>
+        <value>1970-01-01 00:05:01</value>
+        <variable display_value="">1c5f4d94c32222002841b63b12d3aeb3</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=d7c33ae3db99581038699d67b9961921^sys_idNOT IN57c33ae3db99581038699d67b9961922"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>d7c33ae3db99581038699d67b9961921</id>
+        <name>Worker Poll Destroy Workspace</name>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-15 20:32:23</sys_created_on>
+        <sys_id>57c33ae3db99581038699d67b9961922</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-15 20:32:23</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_action_instance action="delete_multiple" query="flow=d7c33ae3db99581038699d67b9961921^sys_idNOT IN1fc33ae3db99581038699d67b996192b,dbc33ae3db99581038699d67b9961928"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Worker Poll Destroy Workspace">a9a376e3db99581038699d67b996190d</action_type>
+        <action_type_parent display_value="Worker Poll Destroy Workspace">4e6332e3db99581038699d67b99619e2</action_type_parent>
+        <comment/>
+        <compiled_snapshot>a9a376e3db99581038699d67b996190d</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Worker Poll Destroy Workspace">d7c33ae3db99581038699d67b9961921</flow>
+        <order>2.1</order>
+        <parent_ui_id>62acb1ee-4933-408f-911f-9fcea780fcc7</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-15 20:32:23</sys_created_on>
+        <sys_id>1fc33ae3db99581038699d67b996192b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Terraform">a3f7fe62dbe033009ba2f8fdbf96192a</sys_scope>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-15 20:32:23</sys_updated_on>
+        <ui_id>4c032556-ae6f-49c9-9590-f09d32c5980b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1fc33ae3db99581038699d67b996192b"/>
+    <sys_element_mapping action="delete_multiple" query="id=1fc33ae3db99581038699d67b996192b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tf_record</field>
+        <id>1fc33ae3db99581038699d67b996192b</id>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-15 20:32:23</sys_created_on>
+        <sys_id>5bc33ae3db99581038699d67b996192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-15 20:32:23</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a9a376e3db99581038699d67b996190d</table>
+        <value>{{62acb1ee-4933-408f-911f-9fcea780fcc7.item}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Worker Poll Destroy Workspace">d7c33ae3db99581038699d67b9961921</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-15 20:32:23</sys_created_on>
+        <sys_id>dbc33ae3db99581038699d67b9961928</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Terraform">a3f7fe62dbe033009ba2f8fdbf96192a</sys_scope>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-15 20:32:23</sys_updated_on>
+        <ui_id>d80fdba1-ce2d-41a8-839b-4ccfca456f67</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=dbc33ae3db99581038699d67b9961928"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>dbc33ae3db99581038699d67b9961928</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-15 20:32:23</sys_created_on>
+        <sys_id>1bc33ae3db99581038699d67b996192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-15 20:32:23</sys_updated_on>
+        <value>x_325709_terraform_terraform</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>dbc33ae3db99581038699d67b9961928</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-15 20:32:23</sys_created_on>
+        <sys_id>57c33ae3db99581038699d67b996192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-15 20:32:23</sys_updated_on>
+        <value>is_destroyable=true^last_known_state!=deleted</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=d7c33ae3db99581038699d67b9961921^sys_idNOT INd3c33ae3db99581038699d67b9961925"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">b5333aa3db99581038699d67b9961929</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Worker Poll Destroy Workspace">d7c33ae3db99581038699d67b9961921</flow>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-15 20:32:23</sys_created_on>
+        <sys_id>d3c33ae3db99581038699d67b9961925</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-15 20:32:23</sys_updated_on>
+        <ui_id>62acb1ee-4933-408f-911f-9fcea780fcc7</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=d3c33ae3db99581038699d67b9961925"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>d3c33ae3db99581038699d67b9961925</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-15 20:32:23</sys_created_on>
+        <sys_id>17c33ae3db99581038699d67b9961926</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-15 20:32:23</sys_updated_on>
+        <value>{{d80fdba1-ce2d-41a8-839b-4ccfca456f67.Records}}</value>
+        <variable display_value="">19df9109c32632002841b63b12d3aed6</variable>
+    </sys_variable_value>
+</record_update>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Copy of Create Workspace Flow">6eeabd11dbb498107928faa468961910</sc_cat_item>
+        <sc_catalog display_value="Terraform Catalog">ccb14beadbe033009ba2f8fdbf961932</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-05-14 20:06:08</sys_created_on>
+        <sys_id>6aeabd11dbb498107928faa468961917</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Terraform Catalog.Copy of Create Workspace Flow</sys_name>
+        <sys_package display_value="Terraform" source="x_325709_terraform">a3f7fe62dbe033009ba2f8fdbf96192a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Terraform">a3f7fe62dbe033009ba2f8fdbf96192a</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_6aeabd11dbb498107928faa468961917</sys_update_name>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-05-14 20:06:08</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Terraform">a3f7fe62dbe033009ba2f8fdbf96192a</application>
+        <file_path/>
+        <instance_id>a261f3b1db28d894413450b6f49619ab</instance_id>
+        <instance_name>ven03693</instance_name>
+        <name>sc_cat_item_catalog_6aeabd11dbb498107928faa468961917</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Copy of Create Workspace Flow">6eeabd11dbb498107928faa468961910</sc_cat_item><sc_catalog display_value="Terraform Catalog">ccb14beadbe033009ba2f8fdbf961932</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>pwelch</sys_created_by><sys_created_on>2020-05-14 20:06:08</sys_created_on><sys_id>6aeabd11dbb498107928faa468961917</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Terraform Catalog.Copy of Create Workspace Flow</sys_name><sys_package display_value="Terraform" source="x_325709_terraform">a3f7fe62dbe033009ba2f8fdbf96192a</sys_package><sys_policy/><sys_scope display_value="Terraform">a3f7fe62dbe033009ba2f8fdbf96192a</sys_scope><sys_update_name>sc_cat_item_catalog_6aeabd11dbb498107928faa468961917</sys_update_name><sys_updated_by>pwelch</sys_updated_by><sys_updated_on>2020-05-14 20:06:08</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-1136276407</payload_hash>
+        <record_name>Terraform Catalog.Copy of Create Workspace Flow</record_name>
+        <reverted_from/>
+        <source>a347d65cdb34181038699d67b9961945</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-05-14 20:06:08</sys_created_on>
+        <sys_id>f6eabd11dbb498107928faa46896191a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17214cb50510000001</sys_recorded_at>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-05-14 20:06:08</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>32eabd119bb49810b37ba29bf22f871a</update_guid>
+        <update_guid_history>32eabd119bb49810b37ba29bf22f871a:-1136276407</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">3bfa3d11dbb498107928faa468961930</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-05-14 20:06:29</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>3418219964c94b00a2345143c7bde400</sys_id>
+        <sys_metadata>6aeabd11dbb498107928faa468961917</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Terraform Catalog.Copy of Create Workspace Flow</sys_name>
+        <sys_package display_value="Terraform" source="x_325709_terraform">a3f7fe62dbe033009ba2f8fdbf96192a</sys_package>
+        <sys_parent display_value="">6eeabd11dbb498107928faa468961910</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Terraform">a3f7fe62dbe033009ba2f8fdbf96192a</sys_scope>
+        <sys_scope_delete display_value="">45184ac6f4e54bee89dba0e0f9a529c9</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_6aeabd11dbb498107928faa468961917</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_6aeabd11dbb498107928faa468961917">f6eabd11dbb498107928faa46896191a</sys_update_version>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-05-14 20:06:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

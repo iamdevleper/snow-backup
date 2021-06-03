@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Terraform">c22fb0a0db703300e16e58b3ca9619e9</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint>Contact Information for Support</hint>
+        <homepage/>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>Contact Support</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order>999</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>x_325709_terraform_Contact%20Support.do</query>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-07-07 14:19:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ea407ee2db3d901038699d67b996196b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Contact Support</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Terraform" source="x_325709_terraform">a3f7fe62dbe033009ba2f8fdbf96192a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Terraform">a3f7fe62dbe033009ba2f8fdbf96192a</sys_scope>
+        <sys_update_name>sys_app_module_ea407ee2db3d901038699d67b996196b</sys_update_name>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:22:25</sys_updated_on>
+        <timeline_page/>
+        <title>Contact Support</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name>_blank</window_name>
+    </sys_app_module>
+</record_update>

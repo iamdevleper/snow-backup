@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="sensitive_tf_var_example" label="sensitive_tf_var_example" language="en" table="var__m_sys_hub_action_input_8baa1b8edb85d85038699d67b99619d1">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>sensitive_tf_var_example</element>
+            <help/>
+            <hint/>
+            <label>sensitive_tf_var_example</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_8baa1b8edb85d85038699d67b99619d1</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>pwelch</sys_created_by>
+            <sys_created_on>2020-05-29 21:15:39</sys_created_on>
+            <sys_id>53aa1b8edb85d85038699d67b99619e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sensitive_tf_var_example</sys_name>
+            <sys_package display_value="Terraform" source="x_325709_terraform">a3f7fe62dbe033009ba2f8fdbf96192a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Terraform">a3f7fe62dbe033009ba2f8fdbf96192a</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_input_8baa1b8edb85d85038699d67b99619d1_sensitive_tf_var_example_en</sys_update_name>
+            <sys_updated_by>pwelch</sys_updated_by>
+            <sys_updated_on>2020-05-29 21:15:39</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Copy of Example With Pinned Variables">45a3c950db2dd81038699d67b99619dd</sc_cat_item>
+        <sc_catalog display_value="Terraform Catalog">ccb14beadbe033009ba2f8fdbf961932</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-17 20:17:48</sys_created_on>
+        <sys_id>89a3c950db2dd81038699d67b99619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Terraform Catalog.Copy of Example With Pinned Variables</sys_name>
+        <sys_package display_value="Terraform" source="x_325709_terraform">a3f7fe62dbe033009ba2f8fdbf96192a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Terraform">a3f7fe62dbe033009ba2f8fdbf96192a</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_89a3c950db2dd81038699d67b99619e1</sys_update_name>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-17 20:17:48</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Terraform">a3f7fe62dbe033009ba2f8fdbf96192a</application>
+        <file_path/>
+        <instance_id>a261f3b1db28d894413450b6f49619ab</instance_id>
+        <instance_name>ven03693</instance_name>
+        <name>sc_cat_item_catalog_89a3c950db2dd81038699d67b99619e1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Copy of Example With Pinned Variables">45a3c950db2dd81038699d67b99619dd</sc_cat_item><sc_catalog display_value="Terraform Catalog">ccb14beadbe033009ba2f8fdbf961932</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>pwelch</sys_created_by><sys_created_on>2020-06-17 20:17:48</sys_created_on><sys_id>89a3c950db2dd81038699d67b99619e1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Terraform Catalog.Copy of Example With Pinned Variables</sys_name><sys_package display_value="Terraform" source="x_325709_terraform">a3f7fe62dbe033009ba2f8fdbf96192a</sys_package><sys_policy/><sys_scope display_value="Terraform">a3f7fe62dbe033009ba2f8fdbf96192a</sys_scope><sys_update_name>sc_cat_item_catalog_89a3c950db2dd81038699d67b99619e1</sys_update_name><sys_updated_by>pwelch</sys_updated_by><sys_updated_on>2020-06-17 20:17:48</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>88408477</payload_hash>
+        <record_name>Terraform Catalog.Copy of Example With Pinned Variables</record_name>
+        <reverted_from/>
+        <source>a347d65cdb34181038699d67b9961945</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-17 20:17:48</sys_created_on>
+        <sys_id>81a3c950db2dd81038699d67b99619e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172c3ee37360000001</sys_recorded_at>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-17 20:17:48</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>c9a3c9502a2dd810614228e3a796e2e3</update_guid>
+        <update_guid_history>c9a3c9502a2dd810614228e3a796e2e3:88408477</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">1094c190db2dd81038699d67b99619b7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>pwelch</sys_created_by>
+        <sys_created_on>2020-06-17 20:21:50</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>45734bde6c20425c9f66236c11cbca04</sys_id>
+        <sys_metadata>89a3c950db2dd81038699d67b99619e1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Terraform Catalog.Copy of Example With Pinned Variables</sys_name>
+        <sys_package display_value="Terraform" source="x_325709_terraform">a3f7fe62dbe033009ba2f8fdbf96192a</sys_package>
+        <sys_parent display_value="">45a3c950db2dd81038699d67b99619dd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Terraform">a3f7fe62dbe033009ba2f8fdbf96192a</sys_scope>
+        <sys_scope_delete display_value="">45184ac6f4e54bee89dba0e0f9a529c9</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_89a3c950db2dd81038699d67b99619e1</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_89a3c950db2dd81038699d67b99619e1">81a3c950db2dd81038699d67b99619e4</sys_update_version>
+        <sys_updated_by>pwelch</sys_updated_by>
+        <sys_updated_on>2020-06-17 20:21:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
